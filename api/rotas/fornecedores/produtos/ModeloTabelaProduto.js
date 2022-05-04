@@ -13,7 +13,7 @@ const colunas = {
     estoque: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        defaultValeu: 0
+        defaultValue: 0
     },
     fornecedor: {
         type: Sequelize.INTEGER,
